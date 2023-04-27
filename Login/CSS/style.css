@@ -1,0 +1,77 @@
+/* Estilos generales */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(45deg, #0e161c, #292e35);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+/* Estilos del formulario */
+
+.login-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.form {
+	background-color: #222;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.form h2 {
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #444;
+	color: #fff;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	outline: none;
+	box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
